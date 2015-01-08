@@ -52,10 +52,11 @@ if __name__ == '__main__':
 
     hm.start()
 
+    time.sleep(10)
     # seconds between samples
     step = 0.05
     # duration of sampling (seconds)
-    duration = 10
+    duration = 60
     output = ''
     for i in range(int(duration / step)):
         time.sleep(step)
